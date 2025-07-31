@@ -1,0 +1,8 @@
+The primary task is Signature Recognition/Classification through the use of Siamese Neural Networks.
+
+Goals:
+
+* Given two signature images - the goal is to determine if they belong to the same individual (genuine) or are forgeries. This method 
+is especially useful for fraud detection in banking and identity authentication.
+
+* Create Custom CNN and compare the results against the Inception-v1 and Inception-v3 that were employed.
