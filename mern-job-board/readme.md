@@ -5,7 +5,7 @@ A full-stack job portal built uding the MERN stack (MongoDB, Express.js, React, 
 This application supports user and admin roles which will only be given once logged in to AWS Cognito - 
 
 Users can browse job listings and apply by submitting a resume
-Admins can post job opoprtunites and review submitted applications
+Admins can post job opportunities and review submitted applications
 
 Features - 
 AWS Cognito Authentication
