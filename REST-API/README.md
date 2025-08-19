@@ -1,5 +1,6 @@
 A lightweight REST API built with Go to practice backend development fundamentals and RESTful design.
 
+
 Features
 
 Implements standard CRUD operations (Create, Read, Update, Delete)
@@ -11,3 +12,20 @@ Uses an in-memory data store (can be extended to databases)
 Clean separation of routes, handlers, and data models
 
 Follows RESTful conventions for endpoints
+
+
+Example Endpoints
+
+GET /events → Fetch all events
+
+POST /events → Create a new event
+
+PUT /events/{id} → Update an existing event
+
+DELETE /events/{id} → Delete an event
+
+Technologies Used
+
+Language: Go
+
+Standard library: net/http, encoding/json, database/sql
