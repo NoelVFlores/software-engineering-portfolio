@@ -20,7 +20,6 @@ A full-stack job portal built with the **MERN stack** (MongoDB, Express.js, Reac
 - Frontend built using **React** and **Vite**
 
 **Code:** [mern-job-board](./mern-job-board)  
-**Demo / Screenshots:** *(Include if available)*
 
 ---
 
