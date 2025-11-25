@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sudokuwindow</class>
+ <widget class="QWidget" name="sudokuwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>837</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="Line" name="xline3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>631</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box28">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box42">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box11">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="yline2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>20</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box32">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box13">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box36">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box05">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box25">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box34">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box46">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box87">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box73">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box01">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box44">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box65">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box70">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="xline1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>631</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box88">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box24">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box14">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box18">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box26">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box80">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DLabel">
+   <property name="geometry">
+    <rect>
+     <x>697</x>
+     <y>20</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Difficulty</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box86">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box61">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box30">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box00">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box40">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box51">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box07">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box22">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box52">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box55">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box43">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box03">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box83">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box78">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box62">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box02">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box53">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box85">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box71">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box47">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box38">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box56">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="yline1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>20</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box74">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box81">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box10">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box68">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box20">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="yline4">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>30</y>
+     <width>20</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box17">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box35">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box60">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box16">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box04">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="xline4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>650</y>
+     <width>631</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box54">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box75">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box08">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box50">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box23">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="xline2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>631</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box33">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box58">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box12">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box06">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>50</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box84">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="yline3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>30</y>
+     <width>20</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box15">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>110</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box66">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box64">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box63">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box45">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box72">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box48">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box31">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box76">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box67">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>470</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box37">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>260</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box77">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>530</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box21">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box82">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>590</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box27">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>170</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box57">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>380</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="box41">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SolverButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>70</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Solve</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SubmitButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>150</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="livesLabel">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>200</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;&lt;br/&gt;Lives: &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Lives Remaining</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
