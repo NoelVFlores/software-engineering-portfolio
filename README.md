@@ -75,4 +75,4 @@ This project demonstrates strong skills in OOP, GUI development, algorithm imple
 - Backtracking search algorithm
 - GUI state management and style updates
 
-**Code:** [sudoku-qt-game](./sudoku-qt-game)
+**Code:** [Sudoku-Qt-Game](./Sudoku-Qt-Game)
