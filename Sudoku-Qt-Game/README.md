@@ -56,9 +56,15 @@ Shows the Easy/Medium/Hard Selection UI.
 
 
 
+
+
+
 **Game Board**
 Ramdonmized Sudoku Board with timer and life counter (This example shows Easy Diffuculty).
 <img width="1004" height="882" alt="image" src="https://github.com/user-attachments/assets/4a57e7be-3243-4665-8877-e6e5c3e8c5eb" />
+
+
+
 
 
 
@@ -68,15 +74,24 @@ Highlights solved cells in green.
 
 
 
+
+
+
 **Submission Checking**
 Correct = green, Incorrect = red.
 <img width="976" height="858" alt="image" src="https://github.com/user-attachments/assets/347fd50d-1048-4408-90d2-da1e499603d8" />
 
 
 
+
+
+
 **Losing Screen**
 "You Lost" message with retry options.
 <img width="882" height="662" alt="image" src="https://github.com/user-attachments/assets/8e625530-41d2-42b0-8cb8-cd86b6108eb8" />
+
+
+
 
 
 
