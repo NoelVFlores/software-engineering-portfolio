@@ -50,9 +50,39 @@ Win screen (Won) when board is solved and at least 1 life remaining
 **Screenshots**
 
 
+**Difficulty Screen**
+Shows the Easy/Medium/Hard Selection UI.
 <img width="1030" height="428" alt="image" src="https://github.com/user-attachments/assets/14467de9-12ac-4bfb-a2b5-0353d582f3fa" />
 
 
+
+**Game Board**
+Ramdonmized Sudoku Board with timer and life counter (This example shows Easy Diffuculty).
+<img width="1004" height="882" alt="image" src="https://github.com/user-attachments/assets/4a57e7be-3243-4665-8877-e6e5c3e8c5eb" />
+
+
+
+**Solver Button**
+Highlights solved cells in green.
+<img width="980" height="856" alt="image" src="https://github.com/user-attachments/assets/0d1ec483-3075-418c-9dfe-2f1f47ab9247" />
+
+
+
+**Submission Checking**
+Correct = green, Incorrect = red.
+<img width="976" height="858" alt="image" src="https://github.com/user-attachments/assets/347fd50d-1048-4408-90d2-da1e499603d8" />
+
+
+
+**Losing Screen**
+"You Lost" message with retry options.
+<img width="882" height="662" alt="image" src="https://github.com/user-attachments/assets/8e625530-41d2-42b0-8cb8-cd86b6108eb8" />
+
+
+
+**Winning Screen**
+"You Win" with Play Again button.
+<img width="940" height="710" alt="image" src="https://github.com/user-attachments/assets/3bb4ebd9-aa6c-474b-811c-506243376869" />
 
 
 
