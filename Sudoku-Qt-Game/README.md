@@ -1,7 +1,7 @@
 **Sudoku Game - C++ / QT GUI Application**
 _A full sudoku game with board generation, solver, submission checking, difficulty modes, and win/lose screens._
 
-This project was developed for EE 5103 - Engineering Programming as a GUI based C++ application using the **QT Framework**.
+This project was developed by Noel Flores and Tori McManus for EE 5103 - Engineering Programming as a GUI based C++ application using the **QT Framework**.
 It features a functional Sudoku generator, interactive board, instant solver, life-based gameplay (difficulty based), validation and dynamic UI updates.
 
 
