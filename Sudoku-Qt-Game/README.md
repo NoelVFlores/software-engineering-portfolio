@@ -44,3 +44,15 @@ Lives decrease until 0
 Lose screen (Lost) when lives reach 0
 Win screen (Won) when board is solved and at least 1 life remaining
 
+
+---------------------------------------------------------------------
+
+**Screenshots**
+
+
+<img width="1030" height="428" alt="image" src="https://github.com/user-attachments/assets/14467de9-12ac-4bfb-a2b5-0353d582f3fa" />
+
+
+
+
+
