@@ -74,3 +74,5 @@ This project demonstrates strong skills in OOP, GUI development, algorithm imple
 - 2D arrays for puzzle state
 - Backtracking search algorithm
 - GUI state management and style updates
+
+**Code:** [sudoku-qt-game](./sudoku-qt-game)
