@@ -55,4 +55,22 @@ A clean and lightweight RESTful API built in **Go**, showcasing backend fundamen
 - Easily extendable to use a persistent database
 - Followed RESTful endpoint conventions
 
+### 4. Sudoku Game (C++ / QT GUI Application)
+A fully interactive desktop Sudoku game built in C++ using the Qt framework, featuring randomized puzzle generation, a backtracking solver, animated feedback, and difficulty-based gameplay mechanics.
 
+This project demonstrates strong skills in OOP, GUI development, algorithm implementation, and event-driven programming.
+
+**Features:**
+- Difficulty Selection Menu
+- Random Sudoku Board Generator
+- Built-in Sudoku Solver
+- Interactive Game Board
+- Submission Checking
+- Win/Lose Windows
+
+**Technology & Concepts**
+- C++ (Object-Oriented Programming
+- QT Widgets & QT Designer (.ui files)
+- 2D arrays for puzzle state
+- Backtracking search algorithm
+- GUI state management and style updates
