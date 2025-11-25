@@ -52,7 +52,7 @@ Win screen (Won) when board is solved and at least 1 life remaining
 
 **Difficulty Screen**
 Shows the Easy/Medium/Hard Selection UI.
-<img src="https://github.com/user-attachments/assets/14467de9-12ac-4bfb-a2b5-0353d582f3fa" width="70%" style="margin:10px 0;" />
+<img src="https://github.com/user-attachments/assets/14467de9-12ac-4bfb-a2b5-0353d582f3fa" width="70%" style="margin:30px 0;" />
 
 
 
@@ -61,7 +61,7 @@ Shows the Easy/Medium/Hard Selection UI.
 
 **Game Board**
 Ramdonmized Sudoku Board with timer and life counter (This example shows Easy Diffuculty).
-<img src="https://github.com/user-attachments/assets/4a57e7be-3243-4665-8877-e6e5c3e8c5eb" width="70%" style="margin:10px 0;" />
+<img src="https://github.com/user-attachments/assets/4a57e7be-3243-4665-8877-e6e5c3e8c5eb" width="70%" style="margin:30px 0;" />
 
 
 
@@ -70,7 +70,7 @@ Ramdonmized Sudoku Board with timer and life counter (This example shows Easy Di
 
 **Solver Button**
 Highlights solved cells in green.
-<img src="https://github.com/user-attachments/assets/0d1ec483-3075-418c-9dfe-2f1f47ab9247" width="70%" style="margin:10px 0;" />
+<img src="https://github.com/user-attachments/assets/0d1ec483-3075-418c-9dfe-2f1f47ab9247" width="70%" style="margin:30px 0;" />
 
 
 
@@ -79,7 +79,7 @@ Highlights solved cells in green.
 
 **Submission Checking**
 Correct = green, Incorrect = red.
-<img src="https://github.com/user-attachments/assets/347fd50d-1048-4408-90d2-da1e499603d8" width="70%" style="margin:10px 0;" />
+<img src="https://github.com/user-attachments/assets/347fd50d-1048-4408-90d2-da1e499603d8" width="70%" style="margin:30px 0;" />
 
 
 
@@ -88,7 +88,7 @@ Correct = green, Incorrect = red.
 
 **Losing Screen**
 "You Lost" message with retry options.
-<img src="https://github.com/user-attachments/assets/8e625530-41d2-42b0-8cb8-cd86b6108eb8" width="70%" style="margin:10px 0;" />
+<img src="https://github.com/user-attachments/assets/8e625530-41d2-42b0-8cb8-cd86b6108eb8" width="70%" style="margin:30px 0;" />
 
 
 
@@ -97,7 +97,7 @@ Correct = green, Incorrect = red.
 
 **Winning Screen**
 "You Win" with Play Again button.
-<img src="https://github.com/user-attachments/assets/3bb4ebd9-aa6c-474b-811c-506243376869" width="70%" style="margin:10px 0;" />
+<img src="https://github.com/user-attachments/assets/3bb4ebd9-aa6c-474b-811c-506243376869" width="70%" style="margin:30px 0;" />
 
 
 
