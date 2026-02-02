@@ -23,7 +23,7 @@ A full-stack job portal built with the **MERN stack** (MongoDB, Express.js, Reac
 
 ---
 
-### 2. Signature Verification (Siamese Neural Networks)
+### 2. Signature Classification (Siamese Neural Networks)
 Collaborative final project for the *Brain-Inspired AI* course (with Chinwe Aghadinuno).  
 Goal: Use Siamese Neural Networks to verify handwritten signatures and detect forgeries using deep metric learning methods.
 
